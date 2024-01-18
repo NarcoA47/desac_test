@@ -1,0 +1,49 @@
+.subscription .continer h2{
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin: 4rem 0rem;
+}
+
+.subscription .continer .content .cards{
+    display: flex;
+}
+
+.subscription .continer .content .cards .card{
+    border: 1px solid rgba(0, 0, 0, 0.371);
+    margin: 0rem 2rem;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 4px 4px 4px 4px rgba(0, 45, 134, 0.454);
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.subscription .continer .content .cards .card form{
+    margin: 0rem 2rem;
+}
+
+.subscription .continer .content .cards .card .heading{
+    text-align: center;
+}
+
+.subscription .continer .content .cards .card .button-manager button{
+    background: none;
+    border: 1px solid rgba(0, 45, 134, 0.454);
+    width: 50%;
+    height: 5vh;
+    border-radius: 5px;
+    padding: .5rem .5rem;
+    text-decoration: none;
+    color: black;
+    margin-top: 8rem;
+    margin-left: 5rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.subscription .continer .content .cards .card .button-manager button:hover{
+    background-color: rgba(0, 45, 134, 0.452);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}

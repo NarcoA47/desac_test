@@ -1,0 +1,178 @@
+.zbm-ambassadors .container {
+    display: flex;
+}
+
+.zbm-ambassadors .container .side-nav {
+    display: block;
+    justify-content: space-between;
+    border-right: 1px solid black;
+    margin: 0rem 1rem;
+    width: 20%;
+    height: 120vh;
+}
+
+.zbm-ambassadors .container .side-nav .side-container {
+    margin: 0rem 0rem;
+}
+
+.zbm-ambassadors .container .side-nav .side-container .heading{
+    margin: 1rem 0rem;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.zbm-ambassadors .container .side-nav .side-container .content{
+    margin: 5rem 0rem;
+}
+
+.zbm-ambassadors .container .side-nav .side-container .content ul li{
+    margin: 2rem 0rem 0rem 0rem;
+    position: relative;
+    right: 2rem;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.zbm-ambassadors .container .side-nav .side-container .content ul li:hover{
+    border-bottom: 1px solid rgba(0, 45, 134, 0.452);
+}
+
+.zbm-ambassadors .container .side-nav .side-container .content ul li a{
+    color: black;
+    font-size: 12px;
+    margin: 2rem 0rem;
+}
+
+.zbm-ambassadors .container .side-nav .side-container .finale-content ul li{
+    margin: 2rem 0rem 0rem 0rem;
+    position: relative;
+    right: 2rem;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.zbm-ambassadors .container .side-nav .side-container .finale-content ul li a{
+    color: black;
+    font-size: 12px;
+    margin: 2rem 0rem;
+}
+
+.zbm-ambassadors .container .side-nav .side-container .finale-content ul li:hover{
+    border-bottom: 1px solid rgba(0, 45, 134, 0.452);
+}
+
+.zbm-ambassadors .secondary-nav {
+    display: flex;
+    justify-content: end;
+    border-bottom: 1px solid rgba(0, 45, 134, 0.454);
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    margin: 0rem 0rem;
+}
+
+.zbm-ambassadors .secondary-nav .item{
+    margin: 0rem 1rem;
+}
+
+.zbm-ambassadors .secondary-nav .item a{
+    background: none;
+    border: 1px solid rgba(0, 45, 134, 0.454);
+    width: 100%;
+    height: 10vh;
+    border-radius: 5px;
+    padding: .5rem .5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.zbm-ambassadors .secondary-nav .item a:hover{
+    background-color: rgba(0, 45, 134, 0.452);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.zbm-ambassadors .secondary-nav .container{
+    margin: 2rem 0rem;
+}
+
+.zbm-ambassadors .dashboard {
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.zbm-ambassadors .dashboard .container  {
+    width: 100%;
+    box-shadow: 4px 4px 4px 4px rgba(0, 45, 134, 0.048);
+}
+
+.zbm-ambassadors .dashboard .container h2{
+    margin: 1rem 1rem;
+    
+}
+
+.zbm-ambassadors .dashboard .container .cards {
+    display: flex;
+    text-align: center;
+}
+
+.zbm-ambassadors .dashboard .container .cards {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    box-shadow: 4px 4px 4px 4px rgba(0, 45, 134, 0.048);
+}
+
+.zbm-ambassadors .dashboard .container .cards .card{
+    margin: 0rem 1rem;
+}
+
+.zbm-ambassadors .dashboard .container .cards .card .image-manager {
+    width: 100%;
+}
+
+.zbm-ambassadors .dashboard .container .cards .card .image-manager img{
+    width: 50%;
+    height: 25vh;
+    border-radius: 100%;
+    margin: 2rem 0rem;
+}
+
+.zbm-ambassadors .dashboard .container .cards .card .button-manager{
+    display: flex;
+    width: 100%;
+}
+
+.zbm-ambassadors .dashboard .container .cards .card .button-manager .vote button{
+    margin: 1rem 1.5rem;
+    background: none;
+    border: 1px solid rgba(0, 45, 134, 0.454);
+    width: 100%;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+.zbm-ambassadors .dashboard .container .cards .card .button-manager .vote button a{
+    text-decoration: none;
+    color: black;
+}
+
+.zbm-ambassadors .dashboard .container .cards .card .button-manager .vote button:hover{
+    background-color: rgba(0, 45, 134, 0.452);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.zbm-ambassadors .dashboard .container .cards .card .button-manager .alt button{
+    margin: 1rem 2rem;
+    background: none;
+    border: 1px solid rgba(0, 45, 134, 0.454);
+    width: 100%;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+.zbm-ambassadors .dashboard .container .cards .card .button-manager .alt button a{ 
+    text-decoration: none;
+    color: black;
+}
+
+.zbm-ambassadors .dashboard .container .cards .card .button-manager .alt button:hover{
+    background-color: rgba(0, 45, 134, 0.452);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,260 @@
+{% extends 'pages/a_base.html' %}
+{% load static%}
+
+{%block title%} KOPALA AWARDS {%endblock%}
+
+{%block content%}
+<div class="kopala-awards">
+    <div class="container">
+        <div class="side-nav">
+            <div class="side-container">
+                <div class="heading">
+                    <h2>Desac Tv</h2>
+                    <h2>Voters Pannel</h2>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li>
+                            <span><i class="fa-solid fa-house"></i></span>
+                            <a href="{% url 'dashboard' %}">Dashboard</a>
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-check-to-slot"></i></span>
+                            <a href="{% url 'zbmAmbassadors' %}">ZBM Ambassadors</a>
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-check-to-slot"></i></span>
+                            <a href="{% url 'kopalaAwards' %}">Kopala Awards</a>
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-book"></i></span>
+                            <a href="{% url 'votersGuide' %}">Voters-Guide</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="finale-content">
+                    <ul>
+                        <li>
+                            <span><i class="fa-solid fa-power-off"></i></span>
+                            <a href="{% url 'logout' %}">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       <div class="content">
+        <div class="secondary-nav">
+            <div class="container">
+                <div class="item">
+                    <label for="">Votes: </label>
+                    {% for subscription in subscription%}
+                    <label for="">{{subscription.number_of_votes}}</label>
+                    {% endfor %}
+                </div>
+                <div class="item">
+                    <label for="">Voted: </label>
+                    <label for="">00</label>
+                </div>
+                <div class="item">
+                    <label for="">Subscription:</label>
+                    {% for subscription in subscription%}
+                    <label for="">{{subscription.subscription_type}}</label>
+                    {% endfor %}
+                </div>
+                <div class="item">
+                    <a href="{% url 'subscription' %}">Upgrade <span><i class="fa-solid fa-lock"></i></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="dashboard">
+            <div class="container">
+                <div class="content">
+                    <div class="heading">
+                        <h2>Music Video</h2>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="image-manager">
+                                <img src="./static/assets/1.jpeg" alt="Model-Name">
+                            </div>
+                            <div class="text-manager">
+                                <h2 class="model-name">Hip/pop</h2>
+                            </div>
+                            <div class="button-manager">
+                                <div class="vote">
+                                    <button type="submit"><a href="./award-voting/voting.html">Select</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-manager">
+                                <img src="./static/assets/1.jpeg" alt="Model-Name">
+                            </div>
+                            <div class="text-manager">
+                                <h2 class="model-name">Hip/pop</h2>
+                            </div>
+                            <div class="button-manager">
+                                <div class="vote">
+                                    <button type="submit"><a href="./award-voting/voting.html">Select</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-manager">
+                                <img src="./static/assets/1.jpeg" alt="Model-Name">
+                            </div>
+                            <div class="text-manager">
+                                <h2 class="model-name">Hip/pop</h2>
+                            </div>
+                            <div class="button-manager">
+                                <div class="vote">
+                                    <button type="submit"><a href="./award-voting/voting.html">Select</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-manager">
+                                <img src="./static/assets/1.jpeg" alt="Model-Name">
+                            </div>
+                            <div class="text-manager">
+                                <h2 class="model-name">Hip/pop</h2>
+                            </div>
+                            <div class="button-manager">
+                                <div class="vote">
+                                    <button type="submit"><a href="./award-voting/voting.html">Select</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="content">
+                    <div class="heading">
+                        <h2>Music Audio</h2>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="image-manager">
+                                <img src="./static/assets/1.jpeg" alt="Model-Name">
+                            </div>
+                            <div class="text-manager">
+                                <h2 class="model-name">Hip/pop</h2>
+                            </div>
+                            <div class="button-manager">
+                                <div class="vote">
+                                    <button type="submit"><a href="./award-voting/voting.html">Select</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-manager">
+                                <img src="./static/assets/1.jpeg" alt="Model-Name">
+                            </div>
+                            <div class="text-manager">
+                                <h2 class="model-name">Hip/pop</h2>
+                            </div>
+                            <div class="button-manager">
+                                <div class="vote">
+                                    <button type="submit"><a href="./award-voting/voting.html">Select</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-manager">
+                                <img src="./static/assets/1.jpeg" alt="Model-Name">
+                            </div>
+                            <div class="text-manager">
+                                <h2 class="model-name">Hip/pop</h2>
+                            </div>
+                            <div class="button-manager">
+                                <div class="vote">
+                                    <button type="submit"><a href="./award-voting/voting.html">Select</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-manager">
+                                <img src="./static/assets/1.jpeg" alt="Model-Name">
+                            </div>
+                            <div class="text-manager">
+                                <h2 class="model-name">Hip/pop</h2>
+                            </div>
+                            <div class="button-manager">
+                                <div class="vote">
+                                    <button type="submit"><a href="./award-voting/voting.html">Select</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="content">
+                    <div class="heading">
+                        <h2>Comedy</h2>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="image-manager">
+                                <img src="./static/assets/1.jpeg" alt="Model-Name">
+                            </div>
+                            <div class="text-manager">
+                                <h2 class="model-name">Hip/pop</h2>
+                            </div>
+                            <div class="button-manager">
+                                <div class="vote">
+                                    <button type="submit"><a href="./award-voting/voting.html">Select</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-manager">
+                                <img src="./static/assets/1.jpeg" alt="Model-Name">
+                            </div>
+                            <div class="text-manager">
+                                <h2 class="model-name">Hip/pop</h2>
+                            </div>
+                            <div class="button-manager">
+                                <div class="vote">
+                                    <button type="submit"><a href="./award-voting/voting.html">Select</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-manager">
+                                <img src="./static/assets/1.jpeg" alt="Model-Name">
+                            </div>
+                            <div class="text-manager">
+                                <h2 class="model-name">Hip/pop</h2>
+                            </div>
+                            <div class="button-manager">
+                                <div class="vote">
+                                    <button type="submit"><a href="./award-voting/voting.html">Select</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-manager">
+                                <img src="./static/assets/1.jpeg" alt="Model-Name">
+                            </div>
+                            <div class="text-manager">
+                                <h2 class="model-name">Hip/pop</h2>
+                            </div>
+                            <div class="button-manager">
+                                <div class="vote">
+                                    <button type="submit"><a href="./award-voting/voting.html">Select</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+</div>
+{%endblock%}

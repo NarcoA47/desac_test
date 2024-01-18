@@ -1,0 +1,17 @@
+{% extends 'pages/s_base.html' %}
+{% load static%}
+
+{%block content%}
+<div class="onboarding">
+    <img src="/static/assets/3.jpg" alt="Background-image">
+    <div class="container">
+        <h1>DESAC TV</h1>
+        <form action="" method="post">
+            {% csrf_token %}
+            <h2>Vote for your favourite candidates at the Desac tv awards</h2>
+            <input type="text" id="email" name="email" placeholder="Email">
+            <button type="submit"><a href="{% url 'onboardingTwo' %}">Get Started</a></button>
+        </form>
+    </div>
+</div>
+{%endblock%}

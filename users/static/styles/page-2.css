@@ -1,0 +1,158 @@
+.kopala-awards .container {
+    display: flex;
+}
+
+.kopala-awards .container .side-nav {
+    display: block;
+    justify-content: space-between;
+    border-right: 1px solid black;
+    margin: 0rem 1rem;
+    width: 20%;
+    height: 165vh;
+}
+
+.kopala-awards .container .side-nav .side-container {
+    margin: 0rem 0rem;
+}
+
+.kopala-awards .container .side-nav .side-container .heading{
+    margin: 1rem 0rem;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.kopala-awards .container .side-nav .side-container .content{
+    margin: 5rem 0rem;
+}
+
+.kopala-awards .container .side-nav .side-container .content ul li{
+    margin: 2rem 0rem 0rem 0rem;
+    position: relative;
+    right: 2rem;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.kopala-awards .container .side-nav .side-container .content ul li:hover{
+    border-bottom: 1px solid rgba(0, 45, 134, 0.452);
+}
+
+.kopala-awards .container .side-nav .side-container .content ul li a{
+    color: black;
+    font-size: 12px;
+    margin: 2rem 0rem;
+}
+
+.kopala-awards .container .side-nav .side-container .finale-content ul li{
+    margin: 2rem 0rem 0rem 0rem;
+    position: relative;
+    right: 2rem;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.kopala-awards .container .side-nav .side-container .finale-content ul li a{
+    color: black;
+    font-size: 12px;
+    margin: 2rem 0rem;
+}
+
+.kopala-awards .container .side-nav .side-container .finale-content ul li:hover{
+    border-bottom: 1px solid rgba(0, 45, 134, 0.452);
+}
+
+.kopala-awards .secondary-nav {
+    display: flex;
+    justify-content: end;
+    border-bottom: 1px solid rgba(0, 45, 134, 0.454);
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    margin: 0rem 0rem;
+}
+
+.kopala-awards .secondary-nav .item{
+    margin: 0rem 1rem;
+}
+
+.kopala-awards .secondary-nav .item a{
+    background: none;
+    border: 1px solid rgba(0, 45, 134, 0.454);
+    width: 100%;
+    height: 10vh;
+    border-radius: 5px;
+    padding: .5rem .5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.kopala-awards .secondary-nav .item a:hover{
+    background-color: rgba(0, 45, 134, 0.452);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.kopala-awards .secondary-nav .container{
+    margin: 2rem 0rem;
+}
+
+.kopala-awards .dashboard {
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.kopala-awards .dashboard .container  {
+    width: 100%;
+    box-shadow: 4px 4px 4px 4px rgba(0, 45, 134, 0.048);
+}
+
+.kopala-awards .dashboard .container h2{
+    margin: 1rem 1rem;
+    
+}
+
+.kopala-awards .dashboard .container .cards {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    box-shadow: 4px 4px 4px 4px rgba(0, 45, 134, 0.048);
+}
+
+.kopala-awards .dashboard .container .cards .card{
+    align-items: center;
+    margin: 0rem 1rem;
+    text-align: center;
+}
+
+.kopala-awards .dashboard .container .cards .card .image-manager {
+    width: 100%;
+}
+
+.kopala-awards .dashboard .container .cards .card .image-manager img{
+    width: 35%;
+    border-radius: 50%;
+    margin: 2rem 0rem;
+}
+
+.kopala-awards .dashboard .container .cards .card .button-manager{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.kopala-awards .dashboard .container .cards .card .button-manager .vote button{
+    margin: 1rem 2rem;
+    background: none;
+    border: 1px solid rgba(0, 45, 134, 0.454);
+    width: 100%;
+    height: 5vh;
+    border-radius: 5px;
+    position: relative;
+    left: 2.5rem;
+}
+
+.kopala-awards .dashboard .container .cards .card .button-manager .vote button a{
+    color: black;
+    text-decoration: none;
+}
+
+.kopala-awards .dashboard .container .cards .card .button-manager .vote button:hover{
+    background-color: rgba(0, 45, 134, 0.452);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,26 @@
+ul{
+    list-style: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    border-bottom: 1px solid rgba(0, 45, 134, 0.454);
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    margin: 0.5rem 1rem;
+}
+
+nav ul .notification{
+    margin: 0rem 2rem;
+}

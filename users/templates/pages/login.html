@@ -1,0 +1,23 @@
+{% extends 'pages/a_base.html' %}
+{% load static%}
+
+{%block title%} ZBM AMBASSADORS {%endblock%}
+
+{%block content%}
+<body>
+    <div class="login">
+        <img src="/static/assets/3.jpg" alt="">
+        <div class="container">
+            <form action="" method="post">
+                {% csrf_token %}
+                <label for="">Email</label>
+                <input type="text">
+                <br/>
+                <label for="">Password</label>
+                <input type="text">
+                <br/>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+{%endblock%}

@@ -1,0 +1,108 @@
+.homepage .container {
+    display: flex;
+}
+
+.homepage .container .side-nav {
+    display: block;
+    justify-content: space-between;
+    border-right: 1px solid black;
+    margin: 0rem 1rem;
+    width: 20%;
+    height: 120vh;
+}
+
+.homepage .container .side-nav .side-container {
+    margin: 0rem 0rem;
+}
+
+.homepage .container .side-nav .side-container .heading{
+    margin: 1rem 0rem;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.homepage .container .side-nav .side-container .content{
+    margin: 5rem 0rem;
+}
+
+.homepage .container .side-nav .side-container .content ul li{
+    margin: 2rem 0rem 0rem 0rem;
+    position: relative;
+    right: 2rem;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.homepage .container .side-nav .side-container .content ul li:hover{
+    border-bottom: 1px solid rgba(0, 45, 134, 0.452);
+}
+
+.homepage .container .side-nav .side-container .content ul li a{
+    color: black;
+    font-size: 12px;
+    margin: 2rem 0rem;
+}
+
+.homepage .container .side-nav .side-container .finale-content ul li{
+    margin: 2rem 0rem 0rem 0rem;
+    position: relative;
+    right: 2rem;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.homepage .container .side-nav .side-container .finale-content ul li a{
+    color: black;
+    font-size: 12px;
+    margin: 2rem 0rem;
+}
+
+.homepage .container .side-nav .side-container .finale-content ul li:hover{
+    border-bottom: 1px solid rgba(0, 45, 134, 0.452);
+}
+
+.homepage .secondary-nav {
+    display: flex;
+    justify-content: end;
+    width: 114%;
+    border-bottom: 1px solid rgba(0, 45, 134, 0.454);
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    margin: 0rem 0rem;
+}
+
+.homepage .secondary-nav .item{
+    margin: 0rem 1rem;
+}
+
+.homepage .secondary-nav .item a{
+    background: none;
+    border: 1px solid rgba(0, 45, 134, 0.454);
+    width: 100%;
+    height: 10vh;
+    border-radius: 5px;
+    padding: .5rem .5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.homepage .secondary-nav .item a:hover{
+    background-color: rgba(0, 45, 134, 0.452);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.homepage .secondary-nav .container{
+    margin: 2rem 0rem;
+}
+
+
+
+.homepage .manager .info .context{
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 5rem;
+    top: 15rem;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+@media screen and (max-width: 720px) {
+    
+}

@@ -1,0 +1,25 @@
+{% extends 'pages/s_base.html' %}
+{% load static%}
+
+{%block content%}
+<div class="onboarding-2">
+    <img src="/static/assets/3.jpg" alt="">
+    <div class="container">
+        <h1>DESAC TV</h1>
+        <form action="" method="post">
+            {% csrf_token %}
+            <h2>Vote for your favourite candidates at the Desac tv awards</h2>
+            <div class="user-details">
+            <input type="text" id="username" name="username" placeholder="Username">
+            <br>
+            <input type="text" id="email" name="email" placeholder="Email">
+            <br>
+            <input type="password" id="password" name="password" placeholder="password">
+            <br>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="confirm password">
+            </div>
+            <button type="submit"><a href="{% url 'subscription' %}">Next</a></button>
+        </form>
+    </div>
+</div>
+{%endblock%}
