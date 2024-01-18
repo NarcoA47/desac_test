@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-!%yi_pf-)ddm6@ov$)^#ery0uqmctckql1cxv&vj*+8^9mp*#@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 VOTE_SESSION_ID = 'vote'
 SESSION_COOKIE_AGE = 86400
